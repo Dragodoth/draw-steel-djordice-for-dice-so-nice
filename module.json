@@ -1,25 +1,42 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
-  "version": "#{VERSION}#",
+  "id": "draw-steel-djordice-for-dice-so-nice",
+  "title": "Draw Steel Djordice for Dice so Nice",
+  "description": "This module replces the 3D model of d10 with the Draw Steel's Djordice (d20 with numbers going from 1 to 10 twice) in Dice so Nice.",
+  "version": "This is auto replaced",
   "library": "false",
-  "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "minimum": "13",
+    "verified": "13.348"
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Dragodoth",
+      "url": "https://github.com/Dragodoth"
     }
   ],
   "relationships": {
-    "systems": [],
-    "requires": []
+      "systems": [{
+          "id": "draw-steel",
+          "type": "system",
+          "compatibility": [
+              {
+                  "minimum": "0.8.0",
+                  "verified": "0.8.1"
+              }
+          ]
+      }
+      ],
+      "requires": [{
+          "id": "dice-so-nice",
+          "type": "module",
+          "compatibility": [
+              {
+                  "minimum": "5.2.4",
+                  "verified": "5.2.4"
+              }
+          ]
+      }
+      ]
   },
   "esmodules": [
     "scripts/module.js"
@@ -37,15 +54,8 @@
       "path": "languages/en.json"
     }
   ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+  "url": "This is auto replaced",
+  "manifest": "This is auto replaced",
+  "download": "This is auto replaced",
+  "readme": "https://github.com/Dragodoth/draw-steel-djordice-for-dice-so-nice#readme"
 }
