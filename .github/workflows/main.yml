@@ -8,12 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-<<<<<<< HEAD
     - uses: actions/checkout@v2
-=======
-      - name: Checkout Repository
-        uses: actions/checkout@v5
->>>>>>> 0f211f2044f70c7c4b39ab07066379ebb985327c
 
     # Substitute the Manifest and Download URLs in the module.json
     - name: Substitute Manifest and Download Links For Versioned Ones
