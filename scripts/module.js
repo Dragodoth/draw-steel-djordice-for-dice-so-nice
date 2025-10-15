@@ -10,5 +10,4 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     diceobj.values = [1,2,3,4,5,6,7,8,9,10,10,9,8,7,6,5,4,3,2,1]
     diceobj.scale = 1
     diceobj.diceSystem = dice3d.DiceFactory.systems.get('djordice')
-    console.log(diceobj)
 })
