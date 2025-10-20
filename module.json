@@ -15,17 +15,7 @@
     }
   ],
   "relationships": {
-      "systems": [{
-          "id": "draw-steel",
-          "type": "system",
-          "compatibility": [
-              {
-                  "minimum": "0.8.0",
-                  "verified": "0.8.1"
-              }
-          ]
-      }
-      ],
+      "systems": [],
       "requires": [{
           "id": "dice-so-nice",
           "type": "module",
