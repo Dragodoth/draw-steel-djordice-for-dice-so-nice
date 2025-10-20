@@ -3,7 +3,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     diceobj.mass = 500
     diceobj.shape = 'd20'
     diceobj.inertia = 9
-    diceobj.labels = ['1','4','7','8','5','3','6','9','10','2','2','10','9','6','3','5','8','7','4','1']
-    diceobj.values = [1,4,7,8,5,3,6,9,10,2,2,10,9,6,3,5,8,7,4,1]
+    diceobj.labels = ['1','2','3','4','5','6','7','8','9','10','10','9','8','7','6','5','4','3','2','1']
     diceobj.scale = 1
 })
